@@ -24,7 +24,7 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: .5px 1px 25px 1px white;
+    box-shadow: .5px 2px 25px 4px rgba(255, 255, 255, 0.463);
 }
 #prev{
     position: absolute;
@@ -53,4 +53,16 @@ body{
 #prev:hover, #nxt:hover{
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    border-radius: 4px;
+}
+
+@media (max-width:550px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .image{
+        width: 100%;
+        height: 260px
+    }
 }
