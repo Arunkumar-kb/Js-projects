@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#8052ec, #d161ff);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 20em;
+    padding: 30px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+h3{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.new_task{
+    border: 1px solid white;
+    padding: 25px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+.new_task input{
+    width: 80%;
+    height: 40px;
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #8052ec;
+    color: #888888;
+    outline: none;
+}
+.new_task button{
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #d161ff;
+    color: white;
+    outline: none;
+}
+.new_task button:active{
+    transform: scale(0.9);
+}
+.tasks{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px rgb(0, 0, 0,0.3);
+    padding: 25px 20px;
+}
+.task{
+    height: 50px;
+    padding: 5px 5px 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+}
+.task span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #d161ff;
+    color: white;
+    outline: none;
+    margin-right: 5px;
+}
+.completed{
+    text-decoration: line-through;
+}
