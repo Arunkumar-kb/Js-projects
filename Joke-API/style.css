@@ -27,6 +27,7 @@ span{
     text-align: center;
     font-size: 5em;
     margin: 10px;
+    user-select: none;
 }
 p{
     text-align: center;
@@ -44,6 +45,7 @@ button{
     margin: 10px auto;
     border: none;
     outline: none;
+    cursor: pointer;
     border-radius: 5px;
     padding: 15px 50px;
     font-size: 20px;
