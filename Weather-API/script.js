@@ -1,4 +1,4 @@
-const key = "6a800531b7b32cc00d2d482976cfa7c4";
+const key = "";
 
 const cityRef = document.getElementById('city');
 const btn = document.getElementById('btn');
