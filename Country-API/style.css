@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #A076F9,#6528F7);
+    transition: all 1.5s linear;
+}
+.container{
+    width: 60vw;
+    max-width: 700px;
+    background: #ffffff;
+    padding: 2em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.35em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    justify-content: space-between;
+    text-align: center;
+}
+.search-container input{
+    width: 100%;
+    padding: 0.5em 0.1em;
+    border: none;
+    font-size: 0.9em;
+    border-bottom: 1px solid #6528F7;
+    outline: none;
+}
+.search-container button{
+    border: none;
+    background-color: #A076F9;
+    color:#ffffff;
+    font-weight: 400;
+    padding: 0.6em 1em;
+    border-radius: 2em;
+}
+.result .flag{
+    display: block;
+    width: 8em;
+    margin: 2em auto 1em auto;
+}
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #331D2C;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.container .data-wrapper{
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+.container h4{
+    display: inline;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.result .msg{
+    text-align: center;
+    margin-top: 1.5em;
+    font-weight: 400;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+@media (max-width:600px){
+    .container{
+        width: 90%;
+        padding: 1em;
+    }
+}
